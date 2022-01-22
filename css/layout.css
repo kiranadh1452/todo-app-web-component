@@ -1,0 +1,49 @@
+header{
+  width: 100vw;
+  font-size: 4.5vh;
+  padding: 3vh 3vw;
+}
+
+
+
+/* special classes */
+.border{
+  border: solid 1px black;
+}
+
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+
+.blue-text{
+  color: #2ac;
+}
+.black-text{
+  color: #000;
+}
+.white-text{
+  color: #fff;
+}
+.gray-text{
+  color: #f6f6f6;
+}
+
+.gray-bg{
+  background-color: #f6f6f6;
+}
+.blue-bg{
+  background-color:#2ac;
+}

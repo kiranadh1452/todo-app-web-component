@@ -1,0 +1,31 @@
+list-item {
+  color: gray;
+}
+
+#main-container{
+  padding: 3vh 5vw;
+  margin: 0;
+}
+
+#add-item-container{
+  font-size: 2vh;
+  font-weight: bold;
+  margin: 1vh 0;
+}
+
+#todo-item-submit{
+  border: none;
+  border-radius: 3px;
+  background-color: #2ac;
+  color: white;
+  height: 32px;
+  width: 80px;
+}
+
+#new-todo-item{
+  width: 30vw;
+  height: 3vh;
+  border-radius: 1%;
+  outline: none;
+  border: #2ac solid 1px;
+}

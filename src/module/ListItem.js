@@ -11,7 +11,7 @@ template.innerHTML = `
   }
 
   .list-group{
-    padding: 2vh 2vw;
+    padding: 2vh 0vw;
   }
 
   #list-content{
@@ -20,7 +20,7 @@ template.innerHTML = `
   .delete-btn{
     float: right;
   }
-  #check-btn{
+  #check-btn, button{
     border: none;
     border-radius: 10px;
     background-color: #2ac;
@@ -28,8 +28,14 @@ template.innerHTML = `
     height: 20px;
     width: 100px;
   }
+  button{
+    height: 30px;
+  }
   button:hover{
     cursor: pointer;
+  }
+  hr{
+    color: rgba(128, 128, 128, 0.285);
   }
 </style>
 <div class="list-group">

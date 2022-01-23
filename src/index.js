@@ -25,5 +25,8 @@ document.getElementById('todo-item-submit').addEventListener('click', submitNewT
 function submitNewTodoItem(){
   const newEntry = document.getElementById('new-todo-item');
   const newEntryText = newEntry.value;
-  addItemToList(newEntryText);
+
+  if(newEntryText != ''){
+    addItemToList(newEntryText);
+  }
 }

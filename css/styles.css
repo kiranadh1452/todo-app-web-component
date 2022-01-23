@@ -14,7 +14,7 @@ list-item {
 }
 
 #pending-item-container{
-  border: 0.1px solid rgba(128, 128, 128, 0.035);
+  box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.235);
 }
 
 #todo-item-submit{

@@ -19,6 +19,7 @@ template.innerHTML = `
   }
   .delete-btn{
     float: right;
+    margin-right: 50px;
   }
   #check-btn, button{
     border: none;

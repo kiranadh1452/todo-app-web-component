@@ -15,17 +15,17 @@ template.innerHTML = `
   }
 
   #list-content{
-    font-size: 2vh;
+    font-size: 20px;
   }
   .delete-btn{
     float: right;
   }
-  button{
+  #check-btn{
     border: none;
     border-radius: 10px;
     background-color: #2ac;
     color: white;
-    height: 30px;
+    height: 20px;
     width: 100px;
   }
   button:hover{
@@ -33,7 +33,7 @@ template.innerHTML = `
   }
 </style>
 <div class="list-group">
-  <button id="check-btn">Mark Done</button>
+  <input id="check-btn" type="checkbox">
   <span id="list-content">
     <slot name="list-text" />
   </span>
